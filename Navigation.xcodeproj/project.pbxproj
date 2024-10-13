@@ -12,6 +12,12 @@
 		5AA553232CB3383800FFBC91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA553222CB3383800FFBC91 /* ViewController.swift */; };
 		5AA553282CB3383A00FFBC91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA553272CB3383A00FFBC91 /* Assets.xcassets */; };
 		5AA5532B2CB3383A00FFBC91 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5AA5532A2CB3383A00FFBC91 /* Base */; };
+		5AA740872CBC53510083CEC4 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA740862CBC53510083CEC4 /* ProfileHeaderView.swift */; };
+		5AA740892CBC55950083CEC4 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA740882CBC55950083CEC4 /* PostViewController.swift */; };
+		5AA7408B2CBC55C20083CEC4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7408A2CBC55C20083CEC4 /* FeedViewController.swift */; };
+		5AA7408D2CBC55DD0083CEC4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7408C2CBC55DD0083CEC4 /* ProfileViewController.swift */; };
+		5AA7408F2CBC55F90083CEC4 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7408E2CBC55F90083CEC4 /* InfoViewController.swift */; };
+		5AA740912CBC56160083CEC4 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA740902CBC56160083CEC4 /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		5AA553272CB3383A00FFBC91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AA5532A2CB3383A00FFBC91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AA5532C2CB3383A00FFBC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA740862CBC53510083CEC4 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		5AA740882CBC55950083CEC4 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		5AA7408A2CBC55C20083CEC4 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5AA7408C2CBC55DD0083CEC4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5AA7408E2CBC55F90083CEC4 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5AA740902CBC56160083CEC4 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		5AA5531D2CB3383800FFBC91 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				5AA740852CBC529C0083CEC4 /* Profile */,
 				5AA5531E2CB3383800FFBC91 /* AppDelegate.swift */,
 				5AA553202CB3383800FFBC91 /* SceneDelegate.swift */,
 				5AA553222CB3383800FFBC91 /* ViewController.swift */,
-				5AA553272CB3383A00FFBC91 /* Assets.xcassets */,
+				5AA740882CBC55950083CEC4 /* PostViewController.swift */,
+				5AA7408A2CBC55C20083CEC4 /* FeedViewController.swift */,
+				5AA7408C2CBC55DD0083CEC4 /* ProfileViewController.swift */,
+				5AA7408E2CBC55F90083CEC4 /* InfoViewController.swift */,
+				5AA740902CBC56160083CEC4 /* AlertViewController.swift */,
 				5AA553292CB3383A00FFBC91 /* LaunchScreen.storyboard */,
 				5AA5532C2CB3383A00FFBC91 /* Info.plist */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5AA740852CBC529C0083CEC4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5AA740862CBC53510083CEC4 /* ProfileHeaderView.swift */,
+				5AA553272CB3383A00FFBC91 /* Assets.xcassets */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +163,12 @@
 				5AA553232CB3383800FFBC91 /* ViewController.swift in Sources */,
 				5AA5531F2CB3383800FFBC91 /* AppDelegate.swift in Sources */,
 				5AA553212CB3383800FFBC91 /* SceneDelegate.swift in Sources */,
+				5AA740872CBC53510083CEC4 /* ProfileHeaderView.swift in Sources */,
+				5AA740912CBC56160083CEC4 /* AlertViewController.swift in Sources */,
+				5AA7408D2CBC55DD0083CEC4 /* ProfileViewController.swift in Sources */,
+				5AA7408B2CBC55C20083CEC4 /* FeedViewController.swift in Sources */,
+				5AA7408F2CBC55F90083CEC4 /* InfoViewController.swift in Sources */,
+				5AA740892CBC55950083CEC4 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

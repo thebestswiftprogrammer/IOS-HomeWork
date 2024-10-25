@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Navigation
-//
-//  Created by Виктория Вайнштейн on 25.10.2024.
-//
-
 import UIKit
 
 @main
@@ -33,4 +26,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
 

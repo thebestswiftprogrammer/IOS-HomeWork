@@ -61,12 +61,12 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
         return textField
     }()
     
-    private let logInButton: UIButton = {
+    private lazy var logInButton: UIButton = {
         let button = UIButton()
         button.setTitle("Log In", for: .normal)
         button.backgroundColor = UIColor(named: "blueLight")
         button.layer.cornerRadius = 10
-        button.addTarget(LogInViewController.self, action: #selector(logInButtonTapped), for: .touchUpInside)
+        button.addTarget(self, action: #selector(logInButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()

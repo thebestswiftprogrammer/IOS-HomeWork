@@ -34,9 +34,8 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
         textField.leftViewMode = .always
         
         textField.layer.borderColor = UIColor.lightGray.cgColor
-        textField.layer.borderWidth = 1
+        textField.layer.borderWidth = 0.5
         textField.layer.cornerRadius = 10
-        
         textField.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         return textField
     }()
@@ -54,7 +53,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
         textField.leftViewMode = .always
         
         textField.layer.borderColor = UIColor.lightGray.cgColor
-        textField.layer.borderWidth = 1
+        textField.layer.borderWidth = 0.5
         textField.layer.cornerRadius = 10
         
         textField.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
@@ -64,7 +63,7 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     private lazy var logInButton: UIButton = {
         let button = UIButton()
         button.setTitle("Log In", for: .normal)
-        button.backgroundColor = UIColor(named: "blueLight")
+        button.backgroundColor = UIColor(named:"blueLight")
         button.layer.cornerRadius = 10
         button.addTarget(self, action: #selector(logInButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false

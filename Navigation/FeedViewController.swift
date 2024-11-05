@@ -4,7 +4,7 @@ import UIKit
 class FeedViewController: UIViewController {
     private let stackView: UIStackView = {
         let stack = UIStackView()
-        stack.axis = .vertical
+        stack.axis = .horizontal
         stack.spacing = 10
         stack.alignment = .center
         stack.translatesAutoresizingMaskIntoConstraints = false

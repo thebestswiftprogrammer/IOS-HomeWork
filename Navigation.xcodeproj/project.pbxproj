@@ -9,19 +9,33 @@
 /* Begin PBXBuildFile section */
 		5A1F0DFF2CCC3A2200449EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0DFE2CCC3A2200449EBE /* AppDelegate.swift */; };
 		5A1F0E012CCC3A2200449EBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E002CCC3A2200449EBE /* SceneDelegate.swift */; };
-		5A1F0E032CCC3A2200449EBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E022CCC3A2200449EBE /* ViewController.swift */; };
 		5A1F0E082CCC3A2400449EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F0E072CCC3A2400449EBE /* Assets.xcassets */; };
-		5A1F0E0B2CCC3A2400449EBE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F0E0A2CCC3A2400449EBE /* Base */; };
+		5A1F0E142CCC3CDA00449EBE /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E132CCC3CDA00449EBE /* ProfileHeaderView.swift */; };
+		5A1F0E162CCC3FB600449EBE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E152CCC3FB600449EBE /* LogInViewController.swift */; };
+		5A1F0E182CCC418400449EBE /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E172CCC418400449EBE /* PostViewController.swift */; };
+		5A1F0E1A2CCC41F400449EBE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E192CCC41F400449EBE /* FeedViewController.swift */; };
+		5A1F0E1C2CCC426900449EBE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E1B2CCC426900449EBE /* ProfileViewController.swift */; };
+		5A1F0E1E2CCC42C200449EBE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E1D2CCC42C200449EBE /* InfoViewController.swift */; };
+		5A1F0E202CCC430600449EBE /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F0E1F2CCC430600449EBE /* AlertViewController.swift */; };
+		D070F52C2CDA9E5200E65A07 /* PostSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070F52B2CDA9E5200E65A07 /* PostSecond.swift */; };
+		D070F52E2CDA9E8400E65A07 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070F52D2CDA9E8400E65A07 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A1F0DFB2CCC3A2200449EBE /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1F0DFE2CCC3A2200449EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A1F0E002CCC3A2200449EBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A1F0E022CCC3A2200449EBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A1F0E072CCC3A2400449EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A1F0E0A2CCC3A2400449EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A1F0E0C2CCC3A2400449EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1F0E132CCC3CDA00449EBE /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		5A1F0E152CCC3FB600449EBE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		5A1F0E172CCC418400449EBE /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		5A1F0E192CCC41F400449EBE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5A1F0E1B2CCC426900449EBE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5A1F0E1D2CCC42C200449EBE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5A1F0E1F2CCC430600449EBE /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		D070F52B2CDA9E5200E65A07 /* PostSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSecond.swift; sourceTree = "<group>"; };
+		D070F52D2CDA9E8400E65A07 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,22 +68,21 @@
 		5A1F0DFD2CCC3A2200449EBE /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				5A1F0E122CCC3A7300449EBE /* Profile */,
 				5A1F0DFE2CCC3A2200449EBE /* AppDelegate.swift */,
 				5A1F0E002CCC3A2200449EBE /* SceneDelegate.swift */,
-				5A1F0E022CCC3A2200449EBE /* ViewController.swift */,
+				5A1F0E172CCC418400449EBE /* PostViewController.swift */,
+				D070F52B2CDA9E5200E65A07 /* PostSecond.swift */,
+				D070F52D2CDA9E8400E65A07 /* PostTableViewCell.swift */,
+				5A1F0E192CCC41F400449EBE /* FeedViewController.swift */,
+				5A1F0E1B2CCC426900449EBE /* ProfileViewController.swift */,
+				5A1F0E1D2CCC42C200449EBE /* InfoViewController.swift */,
+				5A1F0E1F2CCC430600449EBE /* AlertViewController.swift */,
+				5A1F0E132CCC3CDA00449EBE /* ProfileHeaderView.swift */,
+				5A1F0E152CCC3FB600449EBE /* LogInViewController.swift */,
 				5A1F0E072CCC3A2400449EBE /* Assets.xcassets */,
-				5A1F0E092CCC3A2400449EBE /* LaunchScreen.storyboard */,
 				5A1F0E0C2CCC3A2400449EBE /* Info.plist */,
 			);
 			path = Navigation;
-			sourceTree = "<group>";
-		};
-		5A1F0E122CCC3A7300449EBE /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A1F0E082CCC3A2400449EBE /* Assets.xcassets in Resources */,
-				5A1F0E0B2CCC3A2400449EBE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,24 +154,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A1F0E032CCC3A2200449EBE /* ViewController.swift in Sources */,
+				5A1F0E182CCC418400449EBE /* PostViewController.swift in Sources */,
+				5A1F0E162CCC3FB600449EBE /* LogInViewController.swift in Sources */,
+				5A1F0E202CCC430600449EBE /* AlertViewController.swift in Sources */,
 				5A1F0DFF2CCC3A2200449EBE /* AppDelegate.swift in Sources */,
+				5A1F0E1E2CCC42C200449EBE /* InfoViewController.swift in Sources */,
 				5A1F0E012CCC3A2200449EBE /* SceneDelegate.swift in Sources */,
+				5A1F0E142CCC3CDA00449EBE /* ProfileHeaderView.swift in Sources */,
+				D070F52C2CDA9E5200E65A07 /* PostSecond.swift in Sources */,
+				5A1F0E1C2CCC426900449EBE /* ProfileViewController.swift in Sources */,
+				5A1F0E1A2CCC41F400449EBE /* FeedViewController.swift in Sources */,
+				D070F52E2CDA9E8400E65A07 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5A1F0E092CCC3A2400449EBE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A1F0E0A2CCC3A2400449EBE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A1F0E0D2CCC3A2400449EBE /* Debug */ = {
